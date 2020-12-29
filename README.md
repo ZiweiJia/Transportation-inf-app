@@ -1,6 +1,6 @@
 # Transportation-inf-app
 
-OnBoardingActivity<br>
+## OnBoardingActivity<br>
 The screen where allows user to login and register<br>
 
 
@@ -37,7 +37,7 @@ RegisterFragment’s  layout file<br>
 
 
 
-Control Panel(Activity)<br>
+## Control Panel(Activity)<br>
 Control Panel is the container of everything inside, including MainFragment. Other than that Fragments, ControlPanel also contains ToolBar and Navigation View.<br>
 
 Following table describes related files and corresponding descriptions <br>
@@ -68,7 +68,7 @@ res/menu/drawer_view.xml<br>
 The menu item below navigationvie header, includes settings & homes<br>
 
 
-MainFragment<br>
+## MainFragment<br>
 Main Fragment is the main user interface, it includes several features<br>
 The main feature, it shows Google Map and event on screen.<br>
 
@@ -118,16 +118,16 @@ onSubmit and uploadImage<br>
 Take the callback and data from ReportDialog and uploadEvent<br>
 
 
-    interface DialogCallBack {<br>
+    interface DialogCallBack {
         void onSubmit(String editString, String event_type);<br>
-        void startCamera();<br>
-    }<br>
+        void startCamera();
+    }
 
 
 MainFragment’s callback listener from ReportDialog<br>
 
 
-ReportDialog<br>
+## ReportDialog<br>
 ReportDialog is dialog opened from MainFragment and used to display the event spec and report page. Users could switch between two page to choose the event type and data they are going to report<br>
 
 ReportDialog<br>
@@ -197,7 +197,7 @@ Utils.java<br>
 Store util functions<br>
 
 
-Firebase Notifications<br>
+## Firebase Notifications<br>
 These files are used related to firebase cloud messaging, firebase cloud function and firebase database.<br>
 
 Part <br>
