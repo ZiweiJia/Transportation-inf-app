@@ -7,6 +7,7 @@ The screen where allows user to login and register<br>
 Part<br>
 Files Related<br>
 Description<br>
+Onbroading<br>
 OnBoardingActivity.java<br>
 The screen where allows user to login and register<br>
 
