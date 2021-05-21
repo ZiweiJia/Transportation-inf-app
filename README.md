@@ -4,36 +4,40 @@
 The screen where allows user to login and register<br>
 
 
-Part<br>
-Files Related<br>
-Description<br>
-Onbroading<br>
-OnBoardingActivity.java<br>
-The screen where allows user to login and register<br>
+## Part introduction<br>
+- Files Related<br>
+- Description<br>
+- Onbroading<br>
+- OnBoardingActivity.java<br>
+- The screen where allows user to login and register<br>
+
+ 
+### File Related
 
 
-res/layout/activity_on_boarding.xml<br>
-Layout file<br>
-Viewpager<br>
-OnBoardingActivity.java<br>
-It uses the OnBoardingPageAdapter to load LoginFragment and RegisterFragment<br>
-OnBoardingBaseFragment<br>
-OnBoardingBaseFragment.java<br>
-Base fragment of the Login and RegisterFragment which has the shared logic setup<br>
-LoginFragment<br>
-LoginFragment extends OnBoardingBaseFragment<br>
-Fragment defines the login related business logic<br>
+#### activity_on_boarding.xml<br>
+    Viewpager
+    - OnBoardingActivity.java
+    - It uses the OnBoardingPageAdapter to load LoginFragment and RegisterFragment
+    
+    OnBoardingBaseFragment
+    - OnBoardingBaseFragment.java
+    - Base fragment of the Login and RegisterFragment which has the shared logic setup
+    
+    LoginFragment
+    - LoginFragment extends OnBoardingBaseFragment
+    - Fragment defines the login related business logic
 
 
-res/layout/fragment_login.xml<br>
-LoginFragment’s layout file<br>
-RegisterFragment<br>
-RegisterFragment extends OnBoardingBaseFragment<br>
-Fragment defines the register related business logic<br>
+#### fragment_login.xml<br>
+    - LoginFragment’s layout file
+    - RegisterFragment
+    - RegisterFragment extends OnBoardingBaseFragment
+    - Fragment defines the register related business logic
 
 
-res/layout/fragment_register.xml<br>
-RegisterFragment’s  layout file<br>
+#### fragment_register.xml<br>
+    -RegisterFragment’s  layout file<br>
 
 
 
