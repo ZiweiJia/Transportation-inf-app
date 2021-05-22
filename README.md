@@ -29,13 +29,13 @@ The screen where allows user to login and register<br>
 
 
 #### fragment_register.xml<br>
-    -RegisterFragment’s  layout file<br>
+    -RegisterFragment’s  layout file
 
 
 
 
 ## Control Panel(Activity)<br>
-Control Panel is the container of everything inside, including MainFragment. Other than that Fragments, ControlPanel also contains ToolBar and Navigation View.<br>
+Control Panel is the container of everything inside, including MainFragment. Other than that Fragments, ControlPanel also contains ToolBar and Navigation View.
 
 ### Files Related<br>
 
@@ -50,25 +50,25 @@ Control Panel is the container of everything inside, including MainFragment. Oth
 
 
 #### nav_header.xml<br>
-    - The layout of navigationview header, at the top <br>
+    - The layout of navigationview header, at the top
 
 
 #### drawer_view.xml<br>
-    - The menu item below navigationvie header, includes settings & homes<br>
+    - The menu item below navigationvie header, includes settings & homes
 
 
 ## MainFragment<br>
-Main Fragment is the main user interface, it includes several features<br>
-The main feature, it shows Google Map and event on screen.<br>
+Main Fragment is the main user interface, it includes several features
+The main feature, it shows Google Map and event on screen.
 
 ### Related Files<br>
 
 #### MainFragment.java<br>
-    - Main Fragment logic java file <br>
+    - Main Fragment logic java file 
 
 
 #### fragment_main.xml<br>
-    - Main Fragment main UI container<br>
+    - Main Fragment main UI container
 
 
 #### style_json<br>
